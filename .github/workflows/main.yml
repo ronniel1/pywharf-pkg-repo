@@ -1,8 +1,6 @@
 name: update-index
 on:
   push:
-  schedule:
-    - cron: "* * * * *"
 jobs:
   build:
     runs-on: ubuntu-latest
